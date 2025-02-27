@@ -50,7 +50,7 @@ class Bullet(GameSprite):
         self.rect.y -= self.speed
         if self.rect.y < 0:
             self.kill()
-
+#window size
 win_width = 700
 win_height = 500
 image_player = "Player.png"
@@ -128,6 +128,7 @@ while game:
         display.update()
 
     else:
+        #reset the game
         finish = False
         score = 0
         miss = 0
